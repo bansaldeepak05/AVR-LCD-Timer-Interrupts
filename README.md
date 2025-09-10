@@ -1,2 +1,4 @@
 # AVR-LCD-Timer-Interrupts
 AVR Assembly project on Arduino Mega 2560 for button-controlled LCD display using timers and interrupts.
+
+This project demonstrates the use of AVR Assembly on the Arduino Mega 2560 to handle button inputs, interrupts, and LCD output. It is divided into four parts, gradually building from detecting button presses to updating and controlling characters on a 2x16 LCD display. The assignment makes use of multiple 16-bit timers, interrupt service routines, and memory-mapped state management to coordinate between button input, timing, and display updates. Key objectives include debouncing button inputs using timers, implementing interrupt-driven state changes, and managing LCD updates through polling. This project highlights low-level programming concepts such as stack-frame based parameter passing, precise interrupt handling, and real-time embedded system design.
